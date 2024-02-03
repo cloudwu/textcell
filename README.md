@@ -5,7 +5,11 @@ ImGui style api.
 ```lua
 local cell = require "cell"
 
-
+-- > Right alignment
+-- = Center alignment
+-- < Left alignment (default)
+-- 40% : 40% of width
+-- 3   : 3 char wdith
 cell.open ">40% =3"
 	cell.text "Hello"
 	cell.text "|"
